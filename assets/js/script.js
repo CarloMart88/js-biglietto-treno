@@ -22,14 +22,26 @@
 
 // Buon lavoro! 
 
-const age = parseInt(prompt("Inserisci la tua età"))
+//definizione variabili 
 
-console.log(age)
+const age = parseInt(prompt("Inserisci la tua età"))
+const percorso = parseInt(prompt("Inserisci il numero dei km del percorso  "));
+
+let price = ;
 
 let discountBaby = ;
-let discountOld =  ;
+
+let ticket = ;
+
+console.log(age)
+console.log(percorso)
 
 
 if (age <= 18 ) {
 
+  price = (percorso * 0.21)  ;
+
+  discountBaby = (price * 20)/100 ;
+
+  ticket 
 }
