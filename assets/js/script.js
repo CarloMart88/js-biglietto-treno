@@ -45,7 +45,7 @@ if(age < 18 ) {
 
  parseFloat(console.log(ticket))
 
-}else(age >= 18 && age <= 65 ) {
+}else {
  
  let ticket = price *1;
 
