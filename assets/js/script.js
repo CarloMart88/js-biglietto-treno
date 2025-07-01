@@ -53,4 +53,10 @@ if (age < 18 ) {
 
   ticket = price - discountOld ;
 
-}else {}
+}else (age > 18 && age <= 65 ) {
+
+  price = (percorso * 0.21) 
+
+}
+
+console.log(ticket)
