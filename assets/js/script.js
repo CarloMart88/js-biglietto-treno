@@ -29,30 +29,26 @@ const percorso = parseInt(prompt("Inserisci il numero dei km del percorso  "));
 
 let price = (percorso * 0.21) ;
 
-let discountBaby = (price * 20)/100;
-let discountOld = (price * 40)/100;
-let ticket = price - discountBaby;
-
-console.log(age)
-console.log(percorso)
+let discountBaby = ((price * 20)/100);
+let discountOld = ((price * 40)/100);
 
 
-if (age < 18 ) {
+if(age < 18 ) {
   
-  discountBaby = (price * 20)/100 ;
+ let ticket = price - discountBaby ;
 
-  ticket = price - discountBaby ;
+ parseFloat(console.log(ticket))
 
-}else if (age > 65) { 
+}else if(age > 65) { 
   
-  discountOld = (price * 40)/100 ;
+ let ticket = price - discountOld ;
 
-  ticket = price - discountOld ;
+ parseFloat(console.log(ticket))
 
-}else (age >= 18 && age <= 65 ) {
+}else(age >= 18 && age <= 65 ) {
  
-  ticket = price *1;
+ let ticket = price *1;
 
+ parseFloat(console.log(ticket))
 }
 
-parseFloat(console.log(ticket))
