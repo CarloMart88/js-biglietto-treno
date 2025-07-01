@@ -24,39 +24,35 @@
 
 //definizione variabili 
 
-const age = parseInt(prompt("Inserisci la tua età"))
+const age = parseInt(prompt("Inserisci la tua età"));
 const percorso = parseInt(prompt("Inserisci il numero dei km del percorso  "));
 
-let price = ;
+let price = (percorso * 0.21) ;
 
-let discountBaby = ;
-let discountOld = ;
-let ticket = ;
+let discountBaby = (price * 20)/100;
+let discountOld = (price * 40)/100;
+let ticket = price - discountBaby;
 
 console.log(age)
 console.log(percorso)
 
 
 if (age < 18 ) {
-
-  price = (percorso * 0.21)  ;
-
+  
   discountBaby = (price * 20)/100 ;
 
   ticket = price - discountBaby ;
 
 }else if (age > 65) { 
-
-  price = (percorso * 0.21)  ;
-
+  
   discountOld = (price * 40)/100 ;
 
   ticket = price - discountOld ;
 
-}else (age > 18 && age <= 65 ) {
-
-  price = (percorso * 0.21) 
+}else (age >= 18 && age <= 65 ) {
+ 
+  ticket = price *1;
 
 }
 
-console.log(ticket)
+parseFloat(console.log(ticket))
