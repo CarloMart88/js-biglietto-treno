@@ -22,4 +22,14 @@
 
 // Buon lavoro! 
 
-console.log('hello carlo' )
+const age = parseInt(prompt("Inserisci la tua età"))
+
+console.log(age)
+
+let discountBaby = ;
+let discountOld =  ;
+
+
+if (age <= 18 ) {
+
+}
