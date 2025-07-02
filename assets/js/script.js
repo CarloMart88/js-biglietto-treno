@@ -27,7 +27,7 @@
 const age = parseInt(prompt("Inserisci la tua età"));
 const percorso = parseInt(prompt("Inserisci il numero dei km del percorso  "));
 
-let price = (percorso * 0.21) ;
+let price = percorso * 0.21 ;
 
 let discountBaby = ((price * 20)/100);
 let discountOld = ((price * 40)/100);
